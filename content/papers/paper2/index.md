@@ -1,47 +1,47 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+title: "Debugging and Preventing Abnormally High Vmin during Logic Scan Test Bring-up" 
+date: 2025-09-24
+tags: []
+author: ["Min-Hsin Liu", "Ding-Wei Cheng", "James Chien-Mo Li", "Chris Nigh","Szu Huat Goh", "Mason Chern", "Bing-Han Hsieh","Subhadip Kundu"]
+description: "This paper describes an example case study of $V_{min}$ debug, in which a series of experiments are performed to identify the root cause as individual test patterns that capture the responses of unconstrained paths. Two individual methods are proposed to prevent test patterns from capturing those responses. Published in the International Test Conference(ITC), 2025." 
+summary: "This paper describes an example case study of $V_{min}$ debug, in which a series of experiments are performed to identify the root cause as individual test patterns that capture the responses of unconstrained paths. Two individual methods are proposed to prevent test patterns from capturing those responses." 
 cover:
-    image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    image: "outliers.png"
+    alt: "Outlier Patterns"
     relative: true
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+    Text: "IEEE International Test Conference(ITC)"
 
 ---
 
 ---
 
 ##### Download
-
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk-model)
+TBD
+<!-- + [IEEE Link](??) -->
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+At-speed logic scan tests are an important tool to ensure desired quality in mobile chips. During initial test pattern bring-up, tests that exhibit an unexpectedly high $V_{min}$ pose a risk of over-testing and production yield loss. This is particularly problematic if the $V_{min}$ of the test is significantly higher than that of the functional system workloads. In such situations, the at-speed logic scan test is debugged to find and resolve the source of the high $V_{min}$. This paper describes an example case study of $V_{min}$ debug, in which a series of experiments are performed to identify the root cause as individual test patterns that capture the responses of unconstrained paths. We propose pre-silicon and post-silicon methods to improve $V_{min}$ by preventing problematic patterns and reducing the debug effort during test bring-up. Our methods have been verified on ATE to effectively improve $V_{min}$ by 28.83mV to 39.33mV with 0% to 0.5% pattern count inflation.
 
 ---
 
-##### Figure 2: Dimensions of a sausage dog
+##### Figure 1: Results of Pre-silicon Method
 
-![](paper2.png)
+![](presilicon.png)
+
+##### Figure 2: Results of Post-silicon Method
+
+![](postsilicon.png)
 
 ---
 
 ##### Citation
+TBD
+<!-- Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs. -->
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
-
-```BibTeX
+<!-- ```BibTeX
 @article{PI04,
 author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
 year = {2004},
@@ -51,11 +51,10 @@ volume = {43},
 number = {2},
 pages = {89--109},
 url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
-```
+``` -->
 
 ---
 
 ##### Related material
 
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
++ [Presentation slides](SGM_LMH_static.pdf)

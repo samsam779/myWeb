@@ -1,5 +1,5 @@
 baseURL: "https://samsam779.github.io/myWeb/" 
-title: Moritz-Maria von Igelfeld
+title: Min-Hsin(Sam) Liu
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,25 +12,23 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Projects
+          url: books/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: CV
+          url: resume.pdf
+          weight: 4
+        - name: Fun Side of Me
+          url: archive/
+          weight: 5
+
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Min-Hsin's research papers, projects, curriculum vitae, and contact information."
+    author: Min-Hsin, Liu
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -55,49 +53,32 @@ params:
     profileMode:
           enabled: true
           title: Min-Hsin(Sam) Liu
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
+          subtitle: "Hi! Welcome to my page!\n\n
+                  I recently completed my master’s degree at the Graduate Institute of Electronics Engineering, National Taiwan University, where I was part of the Laboratory of Dependable Systems (LaDS). My research focused on integrated circuit (IC) testing and diagnosis, aiming to improve yield and test quality. I’m now exploring PhD opportunities and am particularly interested in IC test methodologies and hardware security.\n\n
+                  If you’d like to know more about me or my work, feel free to reach out!"
+          imageUrl: "face.jpeg"
+          imageWidth: 200
+          imageHeight: 200
           buttons:
             - name: Papers
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
+            - name: Projects
               url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
+            - name: CV
+              url: resume.pdf
+            - name: Fun Side of Me
               url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: mailto:sam20000927@gmail.com
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/samsam779
+        - name: LinkedIn
+          url: https://linkedin.com/in/minhsinliu
+
+
+
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +86,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Min-Hsin(Sam) Liu"
       icon: favicon.ico
       iconHeight: 18
 
