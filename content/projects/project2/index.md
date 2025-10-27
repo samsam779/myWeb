@@ -1,7 +1,7 @@
 ---
 title: "N-detect TDF ATPG and Compression" 
-date: 2022-06-02
-tags: []
+date: 2023-06-02
+tags: ["Transition Delay Fault", "ATPG","Lauch-off-capture","Dynamic Test Compression","Static Test Compression", "PODEM"]
 author: ["Min-Hsin Liu", "Kai-Wei Lin", "Kuan-Hung Yeh"]
 description: "This course project implements PODEM algorithm for n-detect transition delay fault(TDF) pattern generation and applies both dynamic and static pattern compression methods."
 summary: "This course project implements PODEM algorithm for n-detect transition delay fault(TDF) pattern generation and applies both dynamic and static pattern compression methods."

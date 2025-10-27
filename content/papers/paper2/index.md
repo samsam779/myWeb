@@ -1,7 +1,7 @@
 ---
 title: "Debugging and Preventing Abnormally High Vmin during Logic Scan Test Bring-up" 
 date: 2025-09-24
-tags: []
+tags: ["Diagnosis","Vmin","Test Bring-up","Debugging","Tessent","ATPG","At-speed Test","Transition Delay Fault", "Over-testing", "Unconstrained Paths"]
 author: ["Min-Hsin Liu", "Ding-Wei Cheng", "James Chien-Mo Li", "Chris Nigh","Szu Huat Goh", "Mason Chern", "Bing-Han Hsieh","Subhadip Kundu"]
 description: "This paper describes an example case study of $V_{min}$ debug, in which a series of experiments are performed to identify the root cause as individual test patterns that capture the responses of unconstrained paths. Two individual methods are proposed to prevent test patterns from capturing those responses. Published in the International Test Conference(ITC), 2025." 
 summary: "This paper describes an example case study of $V_{min}$ debug, in which a series of experiments are performed to identify the root cause as individual test patterns that capture the responses of unconstrained paths. Two individual methods are proposed to prevent test patterns from capturing those responses." 

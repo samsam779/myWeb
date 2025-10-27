@@ -1,7 +1,7 @@
 ---
 title: "ML-based Adaptive Wafer Sort to Preserve Diagnostic Information" 
 date: 2025-07-01
-tags: []
+tags: ["Adaptive Test", "Machine Learning", "Wafer Sort", "Diagnosis", "Test Quality","Test Time Reduction"]
 author: ["Liu, Yun-Sheng","Liu, Min-Hsin","Li, James Chien-Mo"]
 description: "This paper proposes machine learning based adaptive test method to reduce wafer sort test time while preserving test quality and diagnostic information. Published in the VLSI Test Symposium(VTS), 2025." 
 summary: "This paper proposes machine learning based adaptive test method to reduce wafer sort test time while preserving test quality and diagnostic information." 
@@ -28,7 +28,7 @@ As the complexity of integrated circuits advances, wafer sort faces the difficul
 
 ---
 
-## Figure 1: Main Flow of Adaptive Wafer Sort
+##### Figure 1: Main Flow of Adaptive Wafer Sort
 
 ![](main_flow.png)
 

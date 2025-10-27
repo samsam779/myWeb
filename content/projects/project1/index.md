@@ -1,7 +1,7 @@
 ---
 title: "Fault Tolerant Training with Adversarial Attack Patterns" 
-date: 2022-06-01
-tags: []
+date: 2023-06-01
+tags: ["Neural Network","SNN","Fault Tolerant","Adversarial Attack", "Test Patterns"]
 author: ["Min-Hsin Liu", "Chu-Yun Hsiao"]
 description: "This special project proposes an fault tolerant training method with adversarial attack patterns."
 summary: "This special project proposes an fault tolerant training method with adversarial attack patterns."
