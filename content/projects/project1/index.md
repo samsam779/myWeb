@@ -51,9 +51,6 @@ With the growing adoption of neuromorphic circuits in edge computing, ensuring t
 
 ![](NASF_runtime.png)
 
-##### Figure 4: CPU time for NASF, FIR = 0.03
-
-![](DSCF3108.png)
 
 ## Related Material
 

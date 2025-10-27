@@ -56,7 +56,7 @@ params:
           subtitle: "Hi! Welcome to my page!\n\n
                   I recently completed my master’s degree at the Graduate Institute of Electronics Engineering, National Taiwan University, where I was part of the Laboratory of Dependable Systems (LaDS). My research focused on integrated circuit (IC) testing and diagnosis, aiming to improve yield and test quality. I’m now exploring PhD opportunities and am particularly interested in IC test methodologies and hardware security.\n\n
                   If you’d like to know more about me or my work, feel free to reach out!"
-          imageUrl: "face.jpeg"
+          imageUrl: "face.png"
           imageWidth: 200
           imageHeight: 200
           buttons:
