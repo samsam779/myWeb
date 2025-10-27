@@ -18,7 +18,7 @@ menu:
         - name: Projects
           url: projects/
           weight: 3
-        - name: CV
+        - name: Résumé
           url: resume.pdf
           weight: 4
         - name: My Fun Side
@@ -64,7 +64,7 @@ params:
               url: papers/
             - name: Projects
               url: projects/
-            - name: CV
+            - name: Résumé
               url: resume.pdf
             - name: My Fun Side
               url: funme/
