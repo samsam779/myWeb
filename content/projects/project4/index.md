@@ -10,7 +10,7 @@ cover:
     alt: "Multi-level Banking"
     relative: true
 editPost:
-    URL: ""
+    URL: "https://github.com/samsam779/Power-and-Timing-Optimization-Using-Multibit-Flip-flop"
     Text: "Code"
 showToc: false
 disableAnchoredHeadings: true
