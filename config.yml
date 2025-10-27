@@ -21,8 +21,8 @@ menu:
         - name: CV
           url: resume.pdf
           weight: 4
-        - name: Fun Side of Me
-          url: archive/
+        - name: My Fun Side
+          url: funme
           weight: 5
 
 
@@ -42,7 +42,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["projects","papers","funme"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -66,8 +66,8 @@ params:
               url: projects/
             - name: CV
               url: resume.pdf
-            - name: Fun Side of Me
-              url: archive/
+            - name: My Fun Side
+              url: funme/
 
     socialIcons:
         - name: Email
